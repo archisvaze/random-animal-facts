@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merienda One', sans-serif;
+}
+
+
+body {
+    background-image: url(./6264505.webp);
+    min-height: 100vh;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card {
+    overflow: hidden;
+    padding: 10px 20px 0px 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 5px 10px 20px 5px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+.container button {
+    width: 130%;
+    padding: 10px;
+    border: none;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: "Cascadia Code", sans-serif;
+}
+
+.container button:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.animal-name {
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+
+.img-name-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.scientific-name {
+    font-style: italic;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.animal-type {
+    font-family: "Cascadia Code", sans-serif;
+    align-self: flex-start;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.lifespan {
+    font-family: "Cascadia Code", sans-serif;
+    align-self: flex-start;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.habitat {
+    font-family: "Cascadia Code", sans-serif;
+    align-self: flex-start;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.geo_range {
+    font-family: "Cascadia Code", sans-serif;
+    align-self: flex-start;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.hide{
+    visibility: hidden;
+    transition: 0.2s;
+}
+
