@@ -28,8 +28,16 @@ function fetchData() {
         document.querySelector(".new-animal").innerHTML = "differnt animal?";
         document.querySelector(".new-animal").classList.remove("hide");
     }, 4000)
+
+
+    document.querySelector(".animal-name").innerHTML = `Loding...`
+    document.querySelector(".animal-type").innerHTML = "Type: Loding..." 
+    document.querySelector(".lifespan").innerHTML = "Lifespan: Loding..." 
+    document.querySelector(".habitat").innerHTML = "Habitat: Loding..." 
+    document.querySelector(".geo_range").innerHTML = "Found in: Loding..." 
+    document.querySelector(".scientific-name").innerHTML = `...`;
 }
 
-// fetchData();
+
 
 
