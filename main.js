@@ -12,15 +12,15 @@ function fetchData() {
             let location = data.geo_range;
             let image = data.image_link;
 
-
+            document.querySelector(".animal-img").src = image;
+            document.body.style.backgroundImage = `url("${image}")`;
             document.querySelector(".animal-name").innerHTML = animal;
             document.querySelector(".animal-type").innerHTML = "Type: " + animalType;
             document.querySelector(".lifespan").innerHTML = "Lifespan: " + lifeSpan + " years";
             document.querySelector(".habitat").innerHTML = "Habitat: " + habitat;
             document.querySelector(".geo_range").innerHTML = "Found in: " + location;
             document.querySelector(".scientific-name").innerHTML = `"${scientificName}"`;
-            document.querySelector(".animal-img").src = image;
-            document.body.style.backgroundImage = `url("${image}")`;
+
         })
 
     document.querySelector(".new-animal").classList.add("hide");
