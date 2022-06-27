@@ -19,15 +19,15 @@ function fetchData() {
             document.querySelector(".habitat").innerHTML = "Habitat: " + habitat;
             document.querySelector(".geo_range").innerHTML = "Found in: " + location;
             document.querySelector(".scientific-name").innerHTML = `"${scientificName}"`;
-
-            document.body.style.backgroundImage = `url("${image}")`
+            document.querySelector(".animal-img").src = image;
+            document.body.style.backgroundImage = `url("${image}")`;
         })
 
-        document.querySelector(".new-animal").classList.add("hide");
-        setTimeout(()=>{
-            document.querySelector(".new-animal").innerHTML = "differnt animal?";
-            document.querySelector(".new-animal").classList.remove("hide");
-        }, 4000)
+    document.querySelector(".new-animal").classList.add("hide");
+    setTimeout(() => {
+        document.querySelector(".new-animal").innerHTML = "differnt animal?";
+        document.querySelector(".new-animal").classList.remove("hide");
+    }, 4000)
 }
 
 // fetchData();
