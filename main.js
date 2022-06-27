@@ -31,10 +31,10 @@ function fetchData() {
 
 
     document.querySelector(".animal-name").innerHTML = `Loding...`
-    document.querySelector(".animal-type").innerHTML = "Type: Loding..." 
-    document.querySelector(".lifespan").innerHTML = "Lifespan: Loding..." 
-    document.querySelector(".habitat").innerHTML = "Habitat: Loding..." 
-    document.querySelector(".geo_range").innerHTML = "Found in: Loding..." 
+    document.querySelector(".animal-type").innerHTML = "Type: Loding..."
+    document.querySelector(".lifespan").innerHTML = "Lifespan: Loding..."
+    document.querySelector(".habitat").innerHTML = "Habitat: Loding..."
+    document.querySelector(".geo_range").innerHTML = "Found in: Loding..."
     document.querySelector(".scientific-name").innerHTML = `...`;
 }
 
